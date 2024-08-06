@@ -1,0 +1,38 @@
+
+body {
+	font-family: sans-serif;
+}
+
+.book {
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFF;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid lightgray
+}
+
+.book img {
+	border: 1px solid lightgray;
+}
+
+.book-details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 50px auto;
+}
+
+.edit-button {
+	color: #FFF;
+	background-color: #000;
+	border: none;
+	padding: 10px 15px;
+	font-size: 1.2rem;
+	border-radius: 5px;
+}

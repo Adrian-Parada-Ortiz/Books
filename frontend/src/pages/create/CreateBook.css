@@ -1,0 +1,40 @@
+
+.container {
+	max-width: 1200px;
+	display: flex;
+	justify-content: center;
+	background-color: #FFF;
+	padding: 20px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+}
+
+.form-row {
+	padding: 10px;
+}
+
+.form-row input {
+	font-size: 1.7rem;
+}
+
+.action-buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-delete {
+	color: #000;
+	background-color: rgba(0,0,0,0);
+	border: 3px solid black;	
+}
+
+form button {
+	background-color: #000;
+	color: #FFF;
+	border: none;
+	font-size: 1.5rem;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+

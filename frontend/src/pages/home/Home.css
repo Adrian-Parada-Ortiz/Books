@@ -1,0 +1,37 @@
+html {
+	background-color: #DDD;
+}
+
+.main-container {
+	font-family: sans-serif;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr ;
+	
+	grid-gap: 20px;
+}
+
+@media (min-width: 600px) {
+		.main-container {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media (min-width: 1000px) {
+		.main-container {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
+
+
+.btn-create {
+	background-color: #000;
+	color: #FFF;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 20px;
+	cursor: pointer;
+	margin: 0 50px;
+}
